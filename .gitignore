@@ -1,0 +1,9 @@
+node_modules/
+dist/
+shots/
+*.local
+.DS_Store
+.vite/
+
+# TypeScript 增量编译缓存（tsc -b 生成，属于构建产物）
+*.tsbuildinfo

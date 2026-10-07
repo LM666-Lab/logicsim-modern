@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>逻辑仿真器 · 逆波兰表达式转二元决策图</title>
+    <meta
+      name="description"
+      content="将逆波兰逻辑表达式解析并可视化为二元决策图 (BDD)。支持与、或、非、推出、等价五种逻辑运算，图的 JSON 描述可导入导出。"
+    />
+    <meta name="color-scheme" content="light dark" />
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <!--
+      第三方许可声明（MPL-2.0 第 3.2 条要求）：
+      本页面所加载的脚本中包含 JointJS (@joint/core) 的源代码形式，
+      其版权归 client IO 所有，受 Mozilla Public License 2.0 约束。
+      许可全文：https://www.mozilla.org/en-US/MPL/2.0/
+      源码获取：https://www.npmjs.com/package/@joint/core
+      详见仓库根目录的 LICENSES.md。
+    -->
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
